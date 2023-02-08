@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="eus.ehu.eui.javafxlab3.controllers.VentanaFinalController">
+   <Label fx:id="lblContador" layoutX="14.0" layoutY="14.0" text="La tecal &quot;P&quot; se ha pulsado 0 veces"
+          AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0"/>
+   <Label fx:id="lblCoord" layoutX="14.0" layoutY="369.0" text="X: 0,00 Y: 0,00" AnchorPane.bottomAnchor="14.0"
+          AnchorPane.leftAnchor="14.0"/>
+</AnchorPane>
